@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/777f8f1f-fc1e-44f1-93bd-2d750fdc1baf)# [虹咲过河问题](https://tieba.baidu.com/p/9663861117)
+# [虹咲过河问题](https://tieba.baidu.com/p/9663861117)
 
 ## 题目
 
