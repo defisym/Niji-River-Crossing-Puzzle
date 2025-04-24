@@ -258,9 +258,9 @@ bool CheckRuleSet(const Group& group,const RuleSet& ruleSet) {
 #endif
 
     for (size_t index = 0; index < ruleSet.size(); index++) {
-        if (ruleSet[index](group)) {
+        if (ruleSet[directory](group)) {
 #ifdef OUTPUT_DEBUG_INFO
-            std::cout << "Check Rule " << idx << " Failed!" << "\n";
+            std::cout << "Check Rule " << index << " Failed!" << "\n";
 #endif
             return true;
         }
