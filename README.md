@@ -37,6 +37,148 @@
 
 @cﾒ*˶ˆ ᴗ ˆ˵ﾘ
 
+## 其中一组解
+
+```
+============ Step 0 ============
+====== Left -> Ship ======
+Ship:
+Yuu  Mia
+Left:
+Ayumu  Kasumi  Shizuku  Karin  Ai  Kanata  Setsuna  Emma  Rina  Shioriko  LanZhu
+====== Right -> Ship ======
+Ship:
+Yuu
+Right:
+Mia
+
+============ Step 1 ============
+====== Left -> Ship ======
+Ship:
+Ayumu  Kasumi
+Left:
+Shizuku  Karin  Ai  Kanata  Setsuna  Emma  Rina  Shioriko  LanZhu  Yuu
+====== Right -> Ship ======
+Ship:
+Mia
+Right:
+Ayumu  Kasumi
+
+============ Step 2 ============
+====== Left -> Ship ======
+Ship:
+Shizuku  Karin
+Left:
+Ai  Kanata  Setsuna  Emma  Rina  Shioriko  LanZhu  Yuu  Mia
+====== Right -> Ship ======
+Ship:
+Ayumu
+Right:
+Kasumi  Shizuku  Karin
+
+============ Step 3 ============
+====== Left -> Ship ======
+Ship:
+Ai  Ayumu
+Left:
+Kanata  Setsuna  Emma  Rina  Shioriko  LanZhu  Yuu  Mia
+====== Right -> Ship ======
+Ship:
+Kasumi
+Right:
+Shizuku  Karin  Ai  Ayumu
+
+============ Step 4 ============
+====== Left -> Ship ======
+Ship:
+Kanata  Setsuna
+Left:
+Emma  Rina  Shioriko  LanZhu  Yuu  Mia  Kasumi
+====== Right -> Ship ======
+Ship:
+Shizuku
+Right:
+Karin  Ai  Ayumu  Kanata  Setsuna
+
+============ Step 5 ============
+====== Left -> Ship ======
+Ship:
+Emma  Rina
+Left:
+Shioriko  LanZhu  Yuu  Mia  Kasumi  Shizuku
+====== Right -> Ship ======
+Ship:
+Ai
+Right:
+Karin  Ayumu  Kanata  Setsuna  Emma  Rina
+
+============ Step 6 ============
+====== Left -> Ship ======
+Ship:
+Shioriko  Mia
+Left:
+LanZhu  Yuu  Kasumi  Shizuku  Ai
+====== Right -> Ship ======
+Ship:
+Ayumu
+Right:
+Karin  Kanata  Setsuna  Emma  Rina  Shioriko  Mia
+
+============ Step 7 ============
+====== Left -> Ship ======
+Ship:
+Shizuku  Ayumu
+Left:
+LanZhu  Yuu  Kasumi  Ai
+====== Right -> Ship ======
+Ship:
+Setsuna
+Right:
+Karin  Kanata  Emma  Rina  Shioriko  Mia  Shizuku  Ayumu
+
+============ Step 8 ============
+====== Left -> Ship ======
+Ship:
+LanZhu  Kasumi
+Left:
+Yuu  Ai  Setsuna
+====== Right -> Ship ======
+Ship:
+Mia
+Right:
+Karin  Kanata  Emma  Rina  Shioriko  Shizuku  Ayumu  LanZhu  Kasumi
+
+============ Step 9 ============
+====== Left -> Ship ======
+Ship:
+Yuu  Mia
+Left:
+Ai  Setsuna
+====== Right -> Ship ======
+Ship:
+Ayumu
+Right:
+Karin  Kanata  Rina  Shizuku  LanZhu  Kasumi  Yuu  Mia
+
+============ Step 10 ============
+====== Left -> Ship ======
+Ship:
+Ai  Setsuna
+Left:
+Ayumu
+====== Right -> Ship ======
+Ship:
+Rina
+Right:
+Karin  Kanata  Shizuku  LanZhu  Kasumi  Yuu  Mia  Ai  Setsuna
+
+============ Step 11 ============
+====== Left -> Ship ======
+Ship:
+Ayumu  Rina
+====== End ======
+```
+
 ## 余谈
 
 ~~花两个小时敲代码算这个，我真无聊~~
